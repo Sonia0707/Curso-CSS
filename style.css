@@ -1,23 +1,9 @@
-/*Selector universal*/
+/*Selector universal => Color => RBG => Al pulsar encima podemos cambiar el matiz del color:*/
 *{
-    background: bisque;
+    background: rgb(138, 138, 184);/*En paint se puede ver que colores rgb puedo utilizar*/
+    background: #000; /*Código de color, numeral => # Herramientas para vero photosoft*/ 
 }
-/*Selector por etiqueta*/
-h1{
-    background: red;
-}
-p{
-    background: orange;
-}
-/*Selector descendente*/
-div p{
-    background: orchid;
-}
-/*Selector por clases*/
-.titulo1{
-    background: powderblue;
-}
-/*Selector id => Diferencia con el class es que es unico no se repite*/
-#titulo2{
-    background: green;
-}
+/*Páginas web se puede ver colores:
+* https://htmlcolorcodes.com/​
+* https://color.adobe.com/
+*/
