@@ -1,9 +1,22 @@
-/*Selector universal => Color => RBG => Al pulsar encima podemos cambiar el matiz del color:*/
+/*Selector universal*/
 *{
-    background: rgb(138, 138, 184);/*En paint se puede ver que colores rgb puedo utilizar*/
-    background: #000; /*Código de color, numeral => # Herramientas para vero photosoft*/ 
+    background:beige; /*Color de fondo*/
+   
 }
-/*Páginas web se puede ver colores:
-* https://htmlcolorcodes.com/​
-* https://color.adobe.com/
-*/
+/*Vamos a agregar propiedades que se pueden aplicar en el texto*/
+h1{
+    font-family: monospace; /*Tipografía*/
+    font-size: 80px; /*Tamaño*/
+}
+h2{
+    text-align: center; /*Aliniación*/
+    font-size: 35px;
+    color: brown; /*Color de la letra*/
+}
+p{
+    background: gold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: justify; /*No muy aconsejado justify*/
+}
+
